@@ -1,0 +1,114 @@
+/* Gaya tata letak */
+body {
+  background-image: url('background1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.body container {
+width: 1000px; /* Mengatur lebar maksimum kontainer sesuai dengan 80% dari lebar viewport */
+  margin: 200px; /* Mengatur kontainer menjadi tengah secara horizontal */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 500px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff3366;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 60px;
+  background-color: #3C486B;
+  z-index: 100;
+}
+
+header h1 {
+  font-size: 40px;
+  text-align: center;
+  background:#FFFFFF;
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-family:
+}
+.logo img {
+  width: 270px; /* Sesuaikan ukuran dengan kebutuhan Anda */
+  height: 130px; /* Sesuaikan ukuran dengan kebutuhan Anda */
+  vertical-align: middle;
+} 
+
+nav ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  font-size: 24px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#search-container {
+  text-align: center;
+  margin-right: 50px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #F45050;
+  padding: 3px;
+  text-align: center;
+}
+
+
+.footer-content {
+  font-size: 14px;
+  color: #000000;
+}
