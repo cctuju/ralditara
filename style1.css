@@ -11,25 +11,7 @@ body {
   width: 1000px; /* Mengatur lebar maksimum kontainer sesuai dengan 80% dari lebar viewport */
     margin: 200px; /* Mengatur kontainer menjadi tengah secara horizontal */
   }
-  
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 500px;
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff3366;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
+
   
   
   
